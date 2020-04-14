@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free CRM Application Test Automation Test Suite" duration-ms="65625" started-at="2020-04-14T10:55:28Z" finished-at="2020-04-14T10:56:34Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="65625" started-at="2020-04-14T10:55:28Z" finished-at="2020-04-14T10:56:34Z">
+      <class name="com.crm.testcases.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.HomePageTest@4f7d0008]" name="SetUp" is-config="true" duration-ms="10180" started-at="2020-04-14T10:55:53Z" finished-at="2020-04-14T10:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateHomePageTitleTest()[pri:1, instance:com.crm.testcases.HomePageTest@4f7d0008]" name="ValidateHomePageTitleTest" duration-ms="1557" started-at="2020-04-14T10:56:03Z" finished-at="2020-04-14T10:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.testcases.HomePageTest@4f7d0008]" name="TearDown" is-config="true" duration-ms="660" started-at="2020-04-14T10:56:05Z" finished-at="2020-04-14T10:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.testcases.HomePageTest -->
+      <class name="com.crm.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.ContactsPageTest@271053e1]" name="SetUp" is-config="true" duration-ms="10385" started-at="2020-04-14T10:56:05Z" finished-at="2020-04-14T10:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyContactLabelTest()[pri:1, instance:com.crm.testcases.ContactsPageTest@271053e1]" name="VerifyContactLabelTest" duration-ms="2863" started-at="2020-04-14T10:56:16Z" finished-at="2020-04-14T10:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactLabelTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.testcases.ContactsPageTest@271053e1]" name="TearDown" is-config="true" duration-ms="666" started-at="2020-04-14T10:56:19Z" finished-at="2020-04-14T10:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.testcases.ContactsPageTest -->
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.LoginPageTest@553f17c]" name="SetUp" is-config="true" duration-ms="10437" started-at="2020-04-14T10:55:40Z" finished-at="2020-04-14T10:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateLoginPageTitleTest()[pri:1, instance:com.crm.testcases.LoginPageTest@553f17c]" name="ValidateLoginPageTitleTest" duration-ms="2098" started-at="2020-04-14T10:55:50Z" finished-at="2020-04-14T10:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.testcases.LoginPageTest@553f17c]" name="TearDown" is-config="true" duration-ms="651" started-at="2020-04-14T10:55:52Z" finished-at="2020-04-14T10:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+      <class name="com.crm.testcases.LandingPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.LandingPageTest@5f341870]" name="SetUp" is-config="true" duration-ms="10961" started-at="2020-04-14T10:55:28Z" finished-at="2020-04-14T10:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateLandingPageTitleTest()[pri:1, instance:com.crm.testcases.LandingPageTest@5f341870]" name="ValidateLandingPageTitleTest" duration-ms="17" started-at="2020-04-14T10:55:39Z" finished-at="2020-04-14T10:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLandingPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.testcases.LandingPageTest@5f341870]" name="TearDown" is-config="true" duration-ms="646" started-at="2020-04-14T10:55:39Z" finished-at="2020-04-14T10:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.testcases.LandingPageTest -->
+      <class name="com.crm.testcases.NewContactPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.NewContactPageTest@589838eb]" name="SetUp" is-config="true" duration-ms="10134" started-at="2020-04-14T10:56:19Z" finished-at="2020-04-14T10:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyNewContactLabelTest()[pri:1, instance:com.crm.testcases.NewContactPageTest@589838eb]" name="VerifyNewContactLabelTest" duration-ms="3672" started-at="2020-04-14T10:56:29Z" finished-at="2020-04-14T10:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewContactLabelTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.testcases.NewContactPageTest@589838eb]" name="TearDown" is-config="true" duration-ms="662" started-at="2020-04-14T10:56:33Z" finished-at="2020-04-14T10:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.testcases.NewContactPageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- Free CRM Application Test Automation Test Suite -->
+</testng-results>

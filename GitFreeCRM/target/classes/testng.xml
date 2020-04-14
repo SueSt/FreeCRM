@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.crm.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test thread-count="5" name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.crm.testcases.LandingPageTest" />
+			<class name="com.crm.testcases.LoginPageTest" />
+			<class name="com.crm.testcases.HomePageTest" />
+			<class name="com.crm.testcases.ContactsPageTest" />
+			<class name="com.crm.testcases.NewContactPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
